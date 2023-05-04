@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
+
+/* Common Styling  */
+.HeadingCustomerFav > h1,
+.ProductDiv > h1,
+.ProductDiv > h2,
+.ProductDiv > button,
+filter > select {
+  font-family: "Inter";
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  color: #000000;
+}
+/* Common Styling  */
+.HeadingCustomerFav {
+  position: relative;
+}
+
+.HeadingCustomerFav > h1 {
+  max-width: 619px;
+  font-size: 36px;
+  line-height: 57px;
+  margin: auto;
+}
+.HeadingCustomerFav > p {
+  max-width: 476px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  margin: auto;
+}
+
+.filter {
+  max-width: 102px;
+  height: 36px;
+  /* position: absolute;
+  top: 72px;
+  right: 171px; */
+}
+.filter > select {
+  font-weight: 600;
+  line-height: 22px;
+  color: #88959f;
+}
+
+.ProductDiv {
+    margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.ProductDiv > h1 {
+  font-size: 20px;
+  margin-top: 4px;
+  line-height: 31px;
+}
+.ProductDiv > h2 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #ff7a00;
+  line-height: 25px;
+}
+.ProductDiv > button {
+  background: #00b284;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  height: 36px;
+  font-weight: 600;
+  line-height: 157.19%;
+  text-align: center;
+  color: #ffffff;
+}

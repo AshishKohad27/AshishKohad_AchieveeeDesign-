@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "image": "./Images/Customer_Favourite/Honda_Aviator.png",
+        "title": "Honda Aviator",
+        "price": 400
+    },
+    {
+        "id": 2,
+        "image": "./Images/Customer_Favourite/Bajaj_Pulsar.png",
+        "title": "Bajaj Pulsar 150",
+        "price": 400
+    },
+    {
+        "id": 3,
+        "image": "./Images/Customer_Favourite/Honda_Hornet.png",
+        "title": "Honda Hornet 160",
+        "price": 400
+    },
+    {
+        "id": 4,
+        "image": "./Images/Customer_Favourite/Honda_Aviator.png",
+        "title": "Honda Aviator",
+        "price": 400
+    },
+    {
+        "id": 5,
+        "image": "./Images/Customer_Favourite/Bajaj_Pulsar.png",
+        "title": "Bajaj Pulsar 150",
+        "price": 400
+    },
+    {
+        "id": 6,
+        "image": "./Images/Customer_Favourite/Honda_Hornet.png",
+        "title": "Honda Hornet 160",
+        "price": 400
+    }
+]

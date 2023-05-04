@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "Electric Bikes",
+        "Svg": "./Images/Form/Electric_Bikes.png"
+    },
+    {
+        "id": 2,
+        "title": "Commute Bikes",
+        "Svg": "./Images/Form/Commute_Bikes.png"
+    },
+    {
+        "id": 3,
+        "title": "Premium Bikes",
+        "Svg": "./Images/Form/Premium_Bikes.png"
+    }
+]

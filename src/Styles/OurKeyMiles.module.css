@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
+
+.OurKeyMiles {
+  background: #f7f7f3;
+}
+.OurKeyHeading > h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 57px;
+  color: #000000;
+  text-align: left;
+}
+
+.milesContent > div:nth-child(2) > p {
+  width: 243px;
+}
+.milesContent > div:nth-child(3) {
+  margin-left: 42px;
+}
+.milesContent > div > h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 57px;
+  color: #ff7a00;
+}
+.milesContent > div > h1 > span {
+  color: #5c2c01;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.milesContent > div > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  /* or 31px */
+  color: #000000;
+}
+
+@media all and (min-width: 300px) and (max-width: 750px) {
+  .milesContent > div:nth-child(2) > p {
+    width: "";
+    margin: auto;
+  }
+  .milesContent > div:nth-child(3) {
+    margin-left: 0px;
+  }
+}
