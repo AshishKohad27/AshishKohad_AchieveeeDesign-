@@ -23,7 +23,6 @@ export default function TopBikes() {
         flexDirection={{ base: "column", sm: "column", md: "row" }}
       >
         <GridItem
- 
           w={{ base: "300px", sm: "320px", md: "" }}
           colSpan={1}
           className={style.TopBikesLeft}
@@ -33,10 +32,10 @@ export default function TopBikes() {
           <Heading as="h1" mt="22px">
             The Bykemania advantage
           </Heading>
-          <Heading as="h1" maxW="476px">
+          <Heading as="h1" w={{ base: "auto", sm: "auto", md: "400px" }}>
             Top bikes, everytime!
           </Heading>
-          <Heading as="h1" maxW="376px" mt="8px">
+          <Heading as="h1" maxW="376px" mt="6px">
             Our bikes maintained so well you will feel they are brand new!
           </Heading>
 
