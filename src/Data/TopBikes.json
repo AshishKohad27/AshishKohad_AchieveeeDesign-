@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "Sanitised Bikes",
+        "image": "./Images/TopBikes/SanitisedBikes.png"
+    },
+    {
+        "id": 2,
+        "title": "Latest Models",
+        "image": "./Images/TopBikes/LatestModels.png"
+    },
+    {
+        "id": 3,
+        "title": "Always Insured",
+        "image": "./Images/TopBikes/AlwaysInsured.png"
+    }
+]

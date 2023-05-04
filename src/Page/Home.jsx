@@ -3,6 +3,7 @@ import CustomerFavourites from "../Sections/CustomerFavourites";
 import OurKeyMiles from "../Sections/OurKeyMiles";
 import TopBikes from "../Sections/TopBikes";
 import Navbar from "../Components/Navbar";
+import WellMaintain from "../Sections/WellMaintain";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
       <Box maxW="1440px" bg="red.100" h="100px" m="auto">
         {/* Navbar */}
         <Box maxW="1440px" h="97px" bg="blue.200">
-            <Navbar/>
+          <Navbar />
         </Box>
         {/* Navbar */}
 
@@ -19,19 +20,19 @@ export default function Home() {
         {/* Rent Top Bikes */}
 
         {/* Well Maintain */}
-        <Box maxW="1440px" h="505px" bg="yellow.200"></Box>
+        <WellMaintain />
         {/* Well Maintain */}
 
         {/* Our Key MilesStones */}
-        <OurKeyMiles/>
+        <OurKeyMiles />
         {/* Our Key MilesStones */}
 
         {/* Customer Favourites */}
-        <CustomerFavourites/>
+        <CustomerFavourites />
         {/* Customer Favourites */}
 
         {/* Top Bikes */}
-        <TopBikes/>
+        <TopBikes />
         {/* Top Bikes */}
 
         {/* Easy Access on the app */}

@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
+
+
+/* Common */
+.TopBikesLeft > h1:nth-child(1),
+.TopBikesLeft > h1:nth-child(2) {
+  font-family: "Inter";
+  font-style: normal;
+}
+/* Common */
+.TopBikesLeft > h1:nth-child(1) {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #5c2c01;
+}
+
+.TopBikesLeft > h1:nth-child(2) {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 57px;
+  color: #000000;
+}
+
+.TopBikesLeft > h1:nth-child(3) {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  padding-bottom: 15px;
+}
+
+.TopBikesContent > div > div:nth-child(2) > h1 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+.TopBikesContent > div:nth-child(1) > div:nth-child(1) {
+  margin-left: 20px;
+  /* background: #000; */
+}
+.TopBikesContent > div:nth-child(2) > div:nth-child(1) > img {
+  /* background-color: #000000; */
+  padding-top: 13px;
+}

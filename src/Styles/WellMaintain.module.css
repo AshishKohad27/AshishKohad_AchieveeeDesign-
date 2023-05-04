@@ -1,0 +1,83 @@
+.carouselContainer {
+  width: 1140px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel {
+  /* background-color: red; */
+  width: 1140px;
+  height: 290px;
+  margin: auto;
+  color: #fff;
+  display: flex;
+  text-align: left;
+  position: absolute;
+  top: 90px;
+  z-index: 1;
+  overflow: hidden;
+}
+.carousel > div:first-child {
+  width: 1140px;
+  height: 290px;
+  animation: animation 10s infinite 20s;
+}
+
+.carousel_1 {
+  background-color: red;
+  display: flex;
+}
+.imageDiv {
+  width: 570px;
+  background-color: rosybrown;
+}
+.contentDiv {
+  width: 570px;
+  background-color: palegreen;
+}
+.carousel_2 {
+  background-color: green;
+  display: flex;
+}
+.carousel_3 {
+  background-color: orange;
+  display: flex;
+}
+
+@keyframes animation {
+  0% {
+    margin-left: 0px;
+  }
+  50% {
+    margin-left: -1140px;
+  }
+  100% {
+    margin-left: -2280px;
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 1300px) {
+  .carousel {
+    width: 570px;
+  }
+  .carousel_1,
+  .carousel_2,
+  .carousel_3 {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+  }
+  @keyframes animation {
+    0% {
+      margin-left: 0px;
+    }
+    50% {
+      margin-left: -570px;
+    }
+    100% {
+      margin-left: -1140px;
+    }
+  }
+}
