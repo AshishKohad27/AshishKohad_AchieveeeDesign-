@@ -1,7 +1,6 @@
 import {
   Box,
   Heading,
-  Select,
   SimpleGrid,
   Accordion,
   AccordionItem,

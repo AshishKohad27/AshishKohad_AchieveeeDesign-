@@ -3,7 +3,6 @@ import CustomerFavourites from "../Sections/CustomerFavourites";
 import OurKeyMiles from "../Sections/OurKeyMiles";
 import TopBikes from "../Sections/TopBikes";
 import Navbar from "../Components/Navbar";
-import WellMaintain from "../Sections/WellMaintain";
 import EasyAccess from "../Sections/EasyAccess";
 import Footer from "../Components/Footer";
 import FrequentlyAsked from "../Sections/FrequentlyAsked";

@@ -6,14 +6,15 @@ export default function RentTopBikes() {
   return (
     <Box
       maxW="1440px"
-      h="665px"
-      // bg="purple.200"
+      h={{ base: "auto", sm: "auto", md: "765px", lg: "665px" }}
       m="auto"
       className={style.RentTopBikes}
+      pb="25px"
+     
     >
       <SimpleGrid
         maxW="1118px"
-        h="665px"
+        h={{ base: "auto", sm: "auto", md: "665px" }}
         m="auto"
         columns={{ base: 1, sm: 1, md: 1, lg: 2 }}
         rowGap="15px"
@@ -29,7 +30,7 @@ export default function RentTopBikes() {
           m="auto"
         >
           <Heading as="h1">Rent top bikes for your next ride</Heading>
-          <Text mt="10px" bg="red">
+          <Text mt="10px">
             World-class wealth management using science, data and technology,
             leveraged by our experience, and human touch.
           </Text>

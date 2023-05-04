@@ -1,12 +1,4 @@
-import {
-  Box,
-  Button,
-  Heading,
-  Image,
-  Select,
-  SimpleGrid,
-  Text,
-} from "@chakra-ui/react";
+import { Box, Heading, Select, SimpleGrid, Text } from "@chakra-ui/react";
 import vehicles from "../Data/CustomerFavourite.json";
 import style from "../Styles/CustomerFavourites.module.css";
 import Product from "../Components/Product";

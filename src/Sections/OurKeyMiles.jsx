@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, SimpleGrid, Text } from "@chakra-ui/react";
+import { Box, Heading, SimpleGrid, Text } from "@chakra-ui/react";
 import style from "../Styles/OurKeyMiles.module.css";
 import MileStone from "../Data/OurKeyMiles.json";
 
@@ -24,7 +24,7 @@ export default function OurKeyMiles() {
         >
           {MileStone &&
             MileStone.map((item, index) => (
-              <Box m="">
+              <Box key={index}>
                 <Heading as="h1">
                   {item.digit}
                   <span>+</span>

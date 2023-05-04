@@ -1,6 +1,5 @@
 import { Box, Heading, SimpleGrid } from "@chakra-ui/react";
 import style from "../Styles/Footer.module.css";
-import { useEffect, useState } from "react";
 import footerData from "../Data/Footer.json";
 
 export default function Footer() {
@@ -26,7 +25,7 @@ export default function Footer() {
           <Box mt="10px" w="181px" h="164px">
             {footerData &&
               footerData.QuickLinks.map((item, index) => (
-                <Box>{item.subTitle}</Box>
+                <Box key={index}>{item.subTitle}</Box>
               ))}
           </Box>
         </Box>
@@ -37,7 +36,7 @@ export default function Footer() {
           <Box mt="10px" w="181px" h="164px">
             {footerData &&
               footerData.Policies.map((item, index) => (
-                <Box>{item.subTitle}</Box>
+                <Box key={index}>{item.subTitle}</Box>
               ))}
           </Box>
         </Box>
@@ -48,7 +47,7 @@ export default function Footer() {
           <Box mt="10px" w="181px" h="164px">
             {footerData &&
               footerData.Company.map((item, index) => (
-                <Box>{item.subTitle}</Box>
+                <Box key={index}>{item.subTitle}</Box>
               ))}
           </Box>
         </Box>
@@ -58,7 +57,7 @@ export default function Footer() {
           </Heading>
           <Box mt="10px" w="181px" h="164px">
             {footerData &&
-              footerData.Deals.map((item, index) => <Box>{item.subTitle}</Box>)}
+              footerData.Deals.map((item, index) => <Box key={index}>{item.subTitle}</Box>)}
           </Box>
         </Box>
       </SimpleGrid>

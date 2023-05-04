@@ -1,4 +1,4 @@
-import { Box, Flex, keyframes } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import style from "../Styles/WellMaintain.module.css";
 import { useRef } from "react";
 
