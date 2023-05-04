@@ -1,4 +1,4 @@
-import { Box, Grid } from "@chakra-ui/react";
+import { Box, Grid, Image } from "@chakra-ui/react";
 
 export default function TopBikes() {
   return (
