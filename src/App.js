@@ -11,8 +11,8 @@ import TopBikes from './Sections/TopBikes';
 function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
-      <TopBikes/>
+      <Home />
+      {/* <TopBikes/> */}
     </div>
   );
 }
