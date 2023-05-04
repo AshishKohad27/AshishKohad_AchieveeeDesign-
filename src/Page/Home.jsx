@@ -1,13 +1,17 @@
 import { Box } from "@chakra-ui/react";
 import CustomerFavourites from "../Sections/CustomerFavourites";
 import OurKeyMiles from "../Sections/OurKeyMiles";
+import TopBikes from "../Sections/TopBikes";
+import Navbar from "../Components/Navbar";
 
 export default function Home() {
   return (
     <>
       <Box maxW="1440px" bg="red.100" h="100px" m="auto">
         {/* Navbar */}
-        <Box maxW="1440px" h="97px" bg="blue.200"></Box>
+        <Box maxW="1440px" h="97px" bg="blue.200">
+            <Navbar/>
+        </Box>
         {/* Navbar */}
 
         {/* Rent Top Bikes */}
@@ -27,7 +31,7 @@ export default function Home() {
         {/* Customer Favourites */}
 
         {/* Top Bikes */}
-        <Box maxW="1440px" h="387px" bg="blue.300"></Box>
+        <TopBikes/>
         {/* Top Bikes */}
 
         {/* Easy Access on the app */}

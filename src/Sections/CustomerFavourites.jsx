@@ -13,7 +13,7 @@ import Product from "../Components/Product";
 
 export default function CustomerFavourites() {
   return (
-    <Box maxW="1440px" h="1109px" m="auto">
+    <Box maxW="1440px" h={{ base: "auto", sm: "auto", md: "1109px" }} m="auto">
       <Box className={style.HeadingCustomerFav} pt="59px">
         <Heading as="h1" h={{ base: "auto", sm: "auto", md: "55px" }}>
           Customer favorites

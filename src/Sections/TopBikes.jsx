@@ -11,8 +11,8 @@ export default function TopBikes() {
         h="387px"
       >
         <Box bg="gray">1</Box>
-        <Box bg="red">
-          <Image src="./Images/" alt="" />
+        <Box bg="red" m="auto">
+          <Image src="./Images/TopBikes/TopBikes.png" m="auto" alt="TopBikes" />
         </Box>
       </Grid>
     </Box>
