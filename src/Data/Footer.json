@@ -1,0 +1,50 @@
+{
+    "QuickLinks": [
+        {
+            "id": 1,
+            "subTitle": "FAQ"
+        },
+        {
+            "id": 12,
+            "subTitle": "Tariff"
+        },
+        {
+            "id": 3,
+            "subTitle": "Rent Accessories"
+        },
+        {
+            "id": 4,
+            "subTitle": "Buy Bikes"
+        }
+    ],
+    "Policies": [
+        {
+            "id": 1,
+            "subTitle": "Terms and Condition"
+        },
+        {
+            "id": 2,
+            "subTitle": "Privacy"
+        }
+    ],
+    "Company": [
+        {
+            "id": 1,
+            "subTitle": "Blog"
+        },
+        {
+            "id": 2,
+            "subTitle": "Contact us"
+        }
+    ],
+    "Deals": [
+        {
+            "id": 1,
+            "subTitle": "Offers and Condition"
+        },
+        {
+            "id": 2,
+            "subTitle": "DEALbOX"
+        }
+    ]
+}

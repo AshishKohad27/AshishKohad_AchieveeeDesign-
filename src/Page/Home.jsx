@@ -4,6 +4,10 @@ import OurKeyMiles from "../Sections/OurKeyMiles";
 import TopBikes from "../Sections/TopBikes";
 import Navbar from "../Components/Navbar";
 import WellMaintain from "../Sections/WellMaintain";
+import EasyAccess from "../Sections/EasyAccess";
+import Footer from "../Components/Footer";
+import FrequentlyAsked from "../Sections/FrequentlyAsked";
+import RentTopBikes from "../Sections/RentTopBikes";
 
 export default function Home() {
   return (
@@ -16,11 +20,11 @@ export default function Home() {
         {/* Navbar */}
 
         {/* Rent Top Bikes */}
-        <Box maxW="1440px" h="665px" bg="purple.200"></Box>
+        <RentTopBikes />
         {/* Rent Top Bikes */}
 
         {/* Well Maintain */}
-        <WellMaintain />
+        {/* <WellMaintain /> */}
         {/* Well Maintain */}
 
         {/* Our Key MilesStones */}
@@ -36,7 +40,7 @@ export default function Home() {
         {/* Top Bikes */}
 
         {/* Easy Access on the app */}
-        <Box maxW="1440px" h="640px" bg="red.300"></Box>
+        <EasyAccess />
         {/* Easy Access on the app */}
 
         {/* Rent Electric Vehicles */}
@@ -44,11 +48,11 @@ export default function Home() {
         {/* Rent Electric Vehicles */}
 
         {/* Frequently Asked Question */}
-        <Box maxW="1440px" h="498px" bg="gray.300"></Box>
+        <FrequentlyAsked />
         {/* Frequently Asked Question */}
 
         {/* Fotter */}
-        <Box maxW="1440px" h="400" bg="purple.300"></Box>
+        <Footer />
         {/* Fotter */}
       </Box>
     </>

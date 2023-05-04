@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
+.footerContent > div {
+  text-align: left;
+}
+
+/* Common */
+.footerContent > div > h1:nth-child(1),
+.footerContent > div > div,
+.footerBottom {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+}
+/* Common */
+.footerContent > div > h1:nth-child(1) {
+  color: #5c2c01;
+}
+
+.footerContent > div > div {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 39px;
+  color: #75787b;
+}
+.footerBottom {
+  text-align: center;
+  color: #707070;
+}

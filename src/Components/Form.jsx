@@ -4,7 +4,12 @@ import style from "../Styles/Form.module.css";
 
 export default function Form() {
   return (
-    <Box maxW="431px" h="503px" m="auto" className={style.form}>
+    <Box
+      w={{ base: "280px", sm: "431px", md: "431px" }}
+      h={{ base: "auto", sm: "auto", md: "503px" }}
+      m="auto"
+      className={style.form}
+    >
       <Box w="100%" h="115px" className={style.Container}>
         <Grid
           maxW="337px"

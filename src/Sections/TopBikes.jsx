@@ -12,13 +12,23 @@ import TopData from "../Data/TopBikes.json";
 export default function TopBikes() {
   return (
     <Box m="auto" maxW="1440px" h="auto" bg="">
-      <Grid templateColumns="repeat(2, 1fr)" maxW="1140px" m="auto" h="auto">
+      <Grid
+        templateColumns="repeat(2, 1fr)"
+        maxW="1140px"
+        m="auto"
+        h="auto"
+        display={{ base: "flex", sm: "flex", md: "grid" }}
+        justifyContent="center"
+        alignItems="center"
+        flexDirection={{ base: "column", sm: "column", md: "row" }}
+      >
         <GridItem
-          m="auto"
-          w={{ base: "320px", sm: "420px", md: "100%" }}
-          colSpan={{ base: 1, sm: 1, md: 1 }}
+ 
+          w={{ base: "300px", sm: "320px", md: "" }}
+          colSpan={1}
           className={style.TopBikesLeft}
           textAlign={{ base: "center", sm: "center", md: "left" }}
+          m="auto"
         >
           <Heading as="h1" mt="22px">
             The Bykemania advantage
@@ -55,7 +65,12 @@ export default function TopBikes() {
           colSpan={{ base: 2, sm: 1, md: 1 }}
           mt={{ base: "10px" }}
         >
-          <Image src="./Images/TopBikes/TopBikes.png" m="auto" alt="TopBikes" />
+          <Image
+            w="98%"
+            src="./Images/TopBikes/TopBikes.png"
+            m="auto"
+            alt="TopBikes"
+          />
         </GridItem>
       </Grid>
     </Box>

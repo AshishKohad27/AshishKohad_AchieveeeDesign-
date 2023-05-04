@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Is fuel included in the tariff?",
+        "desc": "It is possible to extend the booking using our app and website. Extension will be only possible if vehicle is available for the slected timings."
+    },
+    {
+        "id": 2,
+        "title": "What all documents are needed to book a vehicle?",
+        "desc": "It is possible to extend the booking using our app and website. Extension will be only possible if vehicle is available for the slected timings."
+    },
+    {
+        "id": 3,
+        "title": "Can I cancel my booking?",
+        "desc": "It is possible to extend the booking using our app and website. Extension will be only possible if vehicle is available for the slected timings."
+    },
+    {
+        "id": 4,
+        "title": "Will I get complimentary helmet?",
+        "desc": "It is possible to extend the booking using our app and website. Extension will be only possible if vehicle is available for the slected timings."
+    },
+    {
+        "id": 5,
+        "title": "What is the minimum or maximum rental period?",
+        "desc": "It is possible to extend the booking using our app and website. Extension will be only possible if vehicle is available for the slected timings."
+    },
+    {
+        "id": 6,
+        "title": "Is it possible to extend the ride beyond the booking horizon?",
+        "desc": "It is possible to extend the booking using our app and website. Extension will be only possible if vehicle is available for the slected timings."
+    }
+]
