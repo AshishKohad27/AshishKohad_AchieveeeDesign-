@@ -7,6 +7,7 @@ export default function EasyAccess() {
       h={{ base: "auto", sm: "auto", md: "640px" }}
       m="auto"
       pt="44px"
+      pb="40px"
     >
       <SimpleGrid
         maxW="1112px"
@@ -48,7 +49,7 @@ export default function EasyAccess() {
         <Flex
           direction="column"
           justifyContent="center"
-          alignItems="flex-start"
+          alignItems={{ base: "center", sm: "center", md: "flex-start" }}
           maxW="556px"
           h="100%"
           className={style.EasyContent}
@@ -56,10 +57,21 @@ export default function EasyAccess() {
           <Text maxW="214px" h="31px">
             Download Bykemania
           </Text>
-          <Heading as="h1" maxW="476px" h="auto" textAlign="left">
+          <Heading
+            as="h1"
+            maxW="476px"
+            h="auto"
+            textAlign={{ base: "center", sm: "center", md: "left" }}
+          >
             Easy access on the app
           </Heading>
-          <Heading as="h1" maxW="406px" h="72px" mt="8px">
+          <Heading
+            as="h1"
+            maxW="406px"
+            h="72px"
+            mt="8px"
+            textAlign={{ base: "center", sm: "center", md: "left" }}
+          >
             Install our mobile app to get exciting offers and amazing features.
           </Heading>
           <Flex mt="12.43px">

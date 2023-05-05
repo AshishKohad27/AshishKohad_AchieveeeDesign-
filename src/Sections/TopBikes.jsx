@@ -11,7 +11,7 @@ import TopData from "../Data/TopBikes.json";
 
 export default function TopBikes() {
   return (
-    <Box m="auto" maxW="1440px" h="auto" bg="">
+    <Box m="auto" mt={{ base: "30px" }} maxW="1440px" h="auto" bg="">
       <Grid
         templateColumns="repeat(2, 1fr)"
         maxW="1140px"
@@ -62,7 +62,7 @@ export default function TopBikes() {
         <GridItem
           m="auto"
           colSpan={{ base: 2, sm: 1, md: 1 }}
-          mt={{ base: "10px" }}
+          mt={{ base: "30px" }}
         >
           <Image
             w="98%"

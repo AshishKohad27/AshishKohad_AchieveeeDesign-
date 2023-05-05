@@ -28,6 +28,7 @@ export default function WellMaintain() {
       h={{ base: "auto", sm: "auto", md: "auto", lg: "505px" }}
       m="auto"
       pt="100px"
+      pb="50px"
     >
       <SimpleGrid
         columns={{ base: 1, sm: 1, md: 1, lg: 2 }}

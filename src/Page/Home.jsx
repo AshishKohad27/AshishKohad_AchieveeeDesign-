@@ -12,7 +12,7 @@ import RentVehicles from "../Sections/RentVehicles";
 
 export default function Home() {
   return (
-    <>
+    <Box m="auto">
       <Box maxW="1440px" bg="red.100" h="100px" m="auto">
         {/* Navbar */}
         <Box maxW="1440px" h="97px" bg="blue.200">
@@ -56,6 +56,6 @@ export default function Home() {
         <Footer />
         {/* Fotter */}
       </Box>
-    </>
+    </Box>
   );
 }

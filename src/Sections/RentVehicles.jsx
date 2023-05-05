@@ -38,8 +38,10 @@ export default function RentVehicles() {
         borderRadius="20px"
         columns={{ base: 1, sm: 1, md: 1, lg: 2 }}
         columnGap="100px"
+        rowGap="20px"
+        p={{ base: "15px" }}
       >
-        <Box h="320px" pl={{ base: "auto", sm: "auto", md: "65px" }}>
+        <Box h={{base:"auto",sm:"auto",md:"320px"}} pl={{ base: "auto", sm: "auto", md: "65px" }}>
           <Flex mt="35px" gap="6px">
             {RentVehicleArr &&
               RentVehicleArr.map((item, index) => (
@@ -58,7 +60,8 @@ export default function RentVehicles() {
               {RentVehicleArr && RentVehicleArr[currentID].title}
             </Heading>
             <SimpleGrid
-              columns={2}
+              m="auto"
+              columns={{ base: 1, sm: 1, md: 2 }}
               mt="5px"
               className={style.RentVehicleLeftContent}
               columnGap="50px"
