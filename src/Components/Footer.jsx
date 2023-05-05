@@ -58,7 +58,9 @@ export default function Footer() {
           </Heading>
           <Box mt="10px" w="181px" h="164px">
             {footerData &&
-              footerData.Deals.map((item, index) => <Box key={index}>{item.subTitle}</Box>)}
+              footerData.Deals.map((item, index) => (
+                <Box key={index}>{item.subTitle}</Box>
+              ))}
           </Box>
         </Box>
       </SimpleGrid>

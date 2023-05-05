@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "title": "Rent Electric Vehicles",
+        "titleImage": "./Images/RentVehicles/RentVehicle.png",
+        "content": [
+            {
+                "id": 1,
+                "title": "Range 100+ kms",
+                "image": "./Images/RentVehicles/Range.png"
+            },
+            {
+                "id": 2,
+                "title": "Payload 150kgs",
+                "image": "./Images/RentVehicles/Payload.png"
+            },
+            {
+                "id": 3,
+                "title": "Charging time: 80% in 2 hrs",
+                "image": "./Images/RentVehicles/Time.png"
+            },
+            {
+                "id": 4,
+                "title": "Swapable battery",
+                "image": "./Images/RentVehicles/Battery.png"
+            },
+            {
+                "id": 5,
+                "title": "Charge anywhere",
+                "image": "./Images/RentVehicles/Home.png"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Rent Top Bikes",
+        "titleImage": "./Images/Rent_Top_Bikes/BGTopBikes.png",
+        "content": [
+            {
+                "id": 1,
+                "title": "Payload 150kgs",
+                "image": "./Images/RentVehicles/Payload.png"
+            },
+            {
+                "id": 2,
+                "title": "Range 100+ kms",
+                "image": "./Images/RentVehicles/Range.png"
+            },
+            {
+                "id": 3,
+                "title": "Swapable battery",
+                "image": "./Images/RentVehicles/Battery.png"
+            },
+            {
+                "id": 4,
+                "title": "Charge anywhere",
+                "image": "./Images/RentVehicles/Home.png"
+            },
+            {
+                "id": 5,
+                "title": "Charging time: 80% in 2 hrs",
+                "image": "./Images/RentVehicles/Time.png"
+            }
+        ]
+    }
+]

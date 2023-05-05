@@ -8,6 +8,7 @@ import Footer from "../Components/Footer";
 import FrequentlyAsked from "../Sections/FrequentlyAsked";
 import RentTopBikes from "../Sections/RentTopBikes";
 import WellMaintain from "../Sections/WellMaintain";
+import RentVehicles from "../Sections/RentVehicles";
 
 export default function Home() {
   return (
@@ -44,7 +45,7 @@ export default function Home() {
         {/* Easy Access on the app */}
 
         {/* Rent Electric Vehicles */}
-        <Box maxW="1440px" h="320px" bg="yellow.300"></Box>
+        <RentVehicles />
         {/* Rent Electric Vehicles */}
 
         {/* Frequently Asked Question */}
