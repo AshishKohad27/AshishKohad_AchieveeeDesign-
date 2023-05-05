@@ -14,10 +14,10 @@ export default function Form() {
   return (
     <Box
       w={{ base: "310px", sm: "431px", md: "431px" }}
-      h={{ base: "auto", sm: "auto", md: "503px" }}
+      h={{ base: "auto", md: "503px" }}
       m="auto"
       className={style.form}
-      p={{ base: "10px", sm: "10px", md: "0px" }}
+      p={{ base: "10px",  md: "0px" }}
       boxSize="fit-content"
     >
       <Box w="100%" h="115px" className={style.Container}>

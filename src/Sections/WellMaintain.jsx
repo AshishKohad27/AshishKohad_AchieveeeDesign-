@@ -25,7 +25,7 @@ export default function WellMaintain() {
   return (
     <Box
       maxW="1440px"
-      h={{ base: "auto", sm: "auto", md: "auto", lg: "505px" }}
+      h={{ base: "auto", lg: "505px" }}
       m="auto"
       pt="100px"
       pb="50px"
@@ -33,7 +33,7 @@ export default function WellMaintain() {
       <SimpleGrid
         columns={{ base: 1, sm: 1, md: 1, lg: 2 }}
         maxW="1154px"
-        h={{ base: "auto", sm: "auto", md: "auto", lg: "290px" }}
+        h={{ base: "auto", lg: "290px" }}
         m="auto"
         columnGap="100px"
       >
@@ -78,15 +78,16 @@ export default function WellMaintain() {
         </Box>
 
         <Box
-          textAlign={{ base: "center", sm: "center", md: "left" }}
+          textAlign={{ base: "center", md: "left" }}
           w={{ base: "320px", sm: "480px", md: "580px" }}
-          h={{ base: "auto", sm: "auto", md: "auto", lg: "290px" }}
+          h={{ base: "auto", lg: "290px" }}
           m="auto"
         >
           <Flex gap="10px" pt="20px">
             {WellMainArr &&
               WellMainArr.map((item, index) => (
                 <Box
+                  key={index}
                   cursor="pointer"
                   h="10px"
                   w="10px"

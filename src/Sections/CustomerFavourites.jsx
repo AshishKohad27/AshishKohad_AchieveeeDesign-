@@ -5,19 +5,19 @@ import Product from "../Components/Product";
 
 export default function CustomerFavourites() {
   return (
-    <Box maxW="1440px" h={{ base: "auto", sm: "auto", md: "1109px" }} m="auto">
+    <Box maxW="1440px" h={{ base: "auto", md: "1109px" }} m="auto">
       <Box className={style.HeadingCustomerFav} pt="59px">
-        <Heading as="h1" h={{ base: "auto", sm: "auto", md: "55px" }}>
+        <Heading as="h1" h={{ base: "auto", md: "55px" }}>
           Customer favorites
         </Heading>
-        <Text h={{ base: "auto", sm: "auto", md: "36px" }}>
+        <Text h={{ base: "auto", md: "36px" }}>
           Bikes that are trending this month ️‍🔥
         </Text>
 
         <Box
           className={style.filter}
           position="absolute"
-          top={{ base: "", sm: "", md: "72px" }}
+          top={{ base: "", md: "72px" }}
           right={{ base: "35%", sm: "40%", md: "149px" }}
         >
           <Select fontSize="14px">

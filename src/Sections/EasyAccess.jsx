@@ -4,14 +4,14 @@ export default function EasyAccess() {
   return (
     <Box
       maxW="1440px"
-      h={{ base: "auto", sm: "auto", md: "640px" }}
+      h={{ base: "auto", md: "640px" }}
       m="auto"
       pt="44px"
       pb="40px"
     >
       <SimpleGrid
         maxW="1112px"
-        h={{ base: "auto", sm: "auto", md: "640px" }}
+        h={{ base: "auto", md: "640px" }}
         m="auto"
         columns={{ base: 1, sm: 1, md: 2 }}
         gap="10px"
@@ -48,10 +48,12 @@ export default function EasyAccess() {
         </Flex>
         <Flex
           direction="column"
-          justifyContent="center"
-          alignItems={{ base: "center", sm: "center", md: "flex-start" }}
+          justifyContent=""
+          alignItems={{ base: "center", md: "flex-start" }}
           maxW="556px"
           h="100%"
+          m="auto"
+          mt={{ lg: "161px" }}
           className={style.EasyContent}
         >
           <Text maxW="214px" h="31px">
@@ -61,7 +63,7 @@ export default function EasyAccess() {
             as="h1"
             maxW="476px"
             h="auto"
-            textAlign={{ base: "center", sm: "center", md: "left" }}
+            textAlign={{ base: "center", md: "left" }}
           >
             Easy access on the app
           </Heading>
@@ -70,7 +72,7 @@ export default function EasyAccess() {
             maxW="406px"
             h="72px"
             mt="8px"
-            textAlign={{ base: "center", sm: "center", md: "left" }}
+            textAlign={{ base: "center", md: "left" }}
           >
             Install our mobile app to get exciting offers and amazing features.
           </Heading>

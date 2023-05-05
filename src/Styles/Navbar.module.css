@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
+
+/* common */
+.DisNavbar,
+.login {
+  font-family: "Inter";
+  font-style: normal;
+}
+/* common */
+.DisNavbar {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #88959f;
+}
+.selectBox{
+    position: relative;
+}
+.location{
+    width: 9px;
+    height: 12px;
+    position: absolute;
+    top: 14px;
+    left: 31px;
+    z-index: 100;
+}
+.select {
+  background: #ffffff;
+  border: 1px solid #b8b8b8;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #88959f;
+}
+.login {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}

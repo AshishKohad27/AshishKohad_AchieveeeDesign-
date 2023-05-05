@@ -17,22 +17,21 @@ export default function TopBikes() {
         maxW="1140px"
         m="auto"
         h="auto"
-        display={{ base: "flex", sm: "flex", md: "grid" }}
+        display={{ base: "flex", md: "grid" }}
         justifyContent="center"
         alignItems="center"
-        flexDirection={{ base: "column", sm: "column", md: "row" }}
+        flexDirection={{ base: "column", md: "row" }}
       >
         <GridItem
           w={{ base: "300px", sm: "320px", md: "" }}
           colSpan={1}
           className={style.TopBikesLeft}
-          textAlign={{ base: "center", sm: "center", md: "left" }}
-          m="auto"
+          textAlign={{ base: "center", md: "left" }}
         >
           <Heading as="h1" mt="22px">
             The Bykemania advantage
           </Heading>
-          <Heading as="h1" w={{ base: "auto", sm: "auto", md: "400px" }}>
+          <Heading as="h1" w={{ base: "auto", md: "400px" }}>
             Top bikes, everytime!
           </Heading>
           <Heading as="h1" maxW="376px" mt="6px">
@@ -42,7 +41,7 @@ export default function TopBikes() {
           <SimpleGrid
             gap="24px"
             maxW="400px"
-            columns={{ base: 3, sm: 3, md: 3 }}
+            columns={3}
             mt="35px"
             className={style.TopBikesContent}
           >

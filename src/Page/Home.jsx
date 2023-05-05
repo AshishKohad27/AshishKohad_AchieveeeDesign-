@@ -15,9 +15,7 @@ export default function Home() {
     <Box m="auto">
       <Box maxW="1440px" bg="red.100" h="100px" m="auto">
         {/* Navbar */}
-        <Box maxW="1440px" h="97px" bg="blue.200">
-          <Navbar />
-        </Box>
+        <Navbar />
         {/* Navbar */}
 
         {/* Rent Top Bikes */}

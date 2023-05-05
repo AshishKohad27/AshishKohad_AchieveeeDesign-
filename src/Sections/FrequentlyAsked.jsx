@@ -19,7 +19,7 @@ export default function FrequentlyAsked() {
           Frequently asked questions
         </Heading>
         <SimpleGrid
-          columns={{ base: 1, sm: 1, md: 2 }}
+          columns={{ base: 1,  md: 2 }}
           gap="10px"
           mt="37px"
           className={style.FQContent}

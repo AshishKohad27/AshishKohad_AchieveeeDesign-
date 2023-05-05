@@ -14,6 +14,8 @@ import {
   useColorModeValue,
   useBreakpointValue,
   useDisclosure,
+  Select,
+  Image,
 } from "@chakra-ui/react";
 import {
   HamburgerIcon,
@@ -21,6 +23,8 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from "@chakra-ui/icons";
+
+import style from "../Styles/Navbar.module.css";
 
 export default function Navbar() {
   const { isOpen, onToggle } = useDisclosure();
@@ -30,7 +34,7 @@ export default function Navbar() {
       <Flex
         bg={useColorModeValue("white", "gray.800")}
         color={useColorModeValue("gray.600", "white")}
-        minH={"60px"}
+        minH={"97px"}
         py={{ base: 2 }}
         px={{ base: 4 }}
         borderBottom={1}
@@ -41,7 +45,7 @@ export default function Navbar() {
         <Flex
           flex={{ base: 1, md: "auto" }}
           ml={{ base: -2 }}
-          display={{ base: "flex", md: "none" }}
+          display={{ base: "flex", lg: "none" }}
         >
           <IconButton
             onClick={onToggle}
@@ -52,16 +56,26 @@ export default function Navbar() {
             aria-label={"Toggle Navigation"}
           />
         </Flex>
-        <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}>
-          <Text
-            textAlign={useBreakpointValue({ base: "center", md: "left" })}
-            fontFamily={"heading"}
-            color={useColorModeValue("gray.800", "white")}
-          >
-            Logo
-          </Text>
+        <Flex
+          w="500px"
+          flex={{ base: 1 }}
+          justify={{ base: "center", md: "start" }}
+          ml={{ base: "0px", lg: "141px" }}
+        >
+          <Box w="73px" h="65px">
+            <Image
+              w="73px"
+              h="65px"
+              src="./Images/Navbar/bykemania.png"
+              alt="logo"
+            />
+          </Box>
 
-          <Flex display={{ base: "none", md: "flex" }} ml={10}>
+          <Flex
+            display={{ base: "none", lg: "flex" }}
+            justifyContent="center"
+            alignItems="center"
+          >
             <DesktopNav />
           </Flex>
         </Flex>
@@ -71,29 +85,34 @@ export default function Navbar() {
           justify={"flex-end"}
           direction={"row"}
           spacing={6}
+          className={style.selectBox}
         >
-          <Button
-            as={"a"}
-            fontSize={"sm"}
-            fontWeight={400}
-            variant={"link"}
-            href={"#"}
+          <Box>
+            <Image
+              className={style.location}
+              src="./Images/Navbar/Vector.png"
+              display={{ base: "none", lg: "block" }}
+            />
+          </Box>
+          <Select
+            className={style.select}
+            display={{ base: "none", lg: "block" }}
           >
-            Sign In
-          </Button>
+            <option value="">Bangalore</option>
+          </Select>
+
           <Button
-            as={"a"}
-            display={{ base: "none", md: "inline-flex" }}
-            fontSize={"sm"}
-            fontWeight={600}
-            color={"white"}
-            bg={"pink.400"}
-            href={"#"}
+            className={style.login}
+            w={{ base: "auto", sm: "auto", md: "auto", lg: "166px" }}
+            h="36px"
+            bg="#00B284"
+            box-shadow="0px 2px 2px rgba(0, 0, 0, 0.25)"
+            border-radius="5px"
             _hover={{
-              bg: "pink.300",
+              bg: "green.300",
             }}
           >
-            Sign Up
+            Login
           </Button>
         </Stack>
       </Flex>
@@ -111,12 +130,13 @@ const DesktopNav = () => {
   const popoverContentBgColor = useColorModeValue("white", "gray.800");
 
   return (
-    <Stack direction={"row"} spacing={4}>
+    <Stack direction={"row"} spacing={4} pt="10px" w="765px" h="49px" ml="80px">
       {NAV_ITEMS.map((navItem) => (
         <Box key={navItem.label}>
           <Popover trigger={"hover"} placement={"bottom-start"}>
             <PopoverTrigger>
               <Link
+                className={style.DisNavbar}
                 p={2}
                 href={navItem.href ?? "#"}
                 fontSize={"sm"}
@@ -196,7 +216,10 @@ const MobileNav = () => {
     <Stack
       bg={useColorModeValue("white", "gray.800")}
       p={4}
-      display={{ md: "none" }}
+      display={{ base: "block", lg: "none" }}
+      maxW="1440px"
+      position="absolute"
+      zIndex="1000"
     >
       {NAV_ITEMS.map((navItem) => (
         <MobileNavItem key={navItem.label} {...navItem} />
@@ -209,7 +232,7 @@ const MobileNavItem = ({ label, children, href }) => {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
-    <Stack spacing={4} onClick={children && onToggle}>
+    <Stack spacing={4} onClick={children && onToggle} >
       <Flex
         py={2}
         as={Link}
@@ -260,41 +283,49 @@ const MobileNavItem = ({ label, children, href }) => {
 
 const NAV_ITEMS = [
   {
-    label: "Inspiration",
-    children: [
-      {
-        label: "Explore Design Work",
-        subLabel: "Trending Design to inspire you",
-        href: "#",
-      },
-      {
-        label: "New & Noteworthy",
-        subLabel: "Up-and-coming Designers",
-        href: "#",
-      },
-    ],
+    label: "For business",
+    // children: [
+    //   {
+    //     label: "Explore Design Work",
+    //     subLabel: "Trending Design to inspire you",
+    //     href: "#",
+    //   },
+    //   {
+    //     label: "New & Noteworthy",
+    //     subLabel: "Up-and-coming Designers",
+    //     href: "#",
+    //   },
+    // ],
   },
   {
-    label: "Find Work",
-    children: [
-      {
-        label: "Job Board",
-        subLabel: "Find your dream design job",
-        href: "#",
-      },
-      {
-        label: "Freelance Projects",
-        subLabel: "An exclusive list for contract work",
-        href: "#",
-      },
-    ],
+    label: "GO Electric",
+    // children: [
+    //   {
+    //     label: "Job Board",
+    //     subLabel: "Find your dream design job",
+    //     href: "#",
+    //   },
+    //   {
+    //     label: "Freelance Projects",
+    //     subLabel: "An exclusive list for contract work",
+    //     href: "#",
+    //   },
+    // ],
   },
   {
-    label: "Learn Design",
+    label: "Partner with us",
     href: "#",
   },
   {
-    label: "Hire Designers",
+    label: "VOLARIS",
+    href: "#",
+  },
+  {
+    label: "Tariff Offers",
+    href: "#",
+  },
+  {
+    label: "Riding gear",
     href: "#",
   },
 ];

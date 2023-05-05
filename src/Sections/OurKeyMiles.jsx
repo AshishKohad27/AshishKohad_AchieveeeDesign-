@@ -6,16 +6,12 @@ export default function OurKeyMiles() {
   return (
     <Box
       maxW="1440px"
-      h={{ base: "auto", sm: "auto", md: "331px" }}
+      h={{ base: "auto", md: "331px" }}
       m="auto"
       className={style.OurKeyMiles}
     >
       <Box maxW="1140px" m="auto" className={style.OurKeyHeading}>
-        <Heading
-          as="h1"
-          pt="62px"
-          textAlign={{ base: "center", sm: "center", md: "left" }}
-        >
+        <Heading as="h1" pt="62px" textAlign={{ base: "center", md: "left" }}>
           Our Key Milestone
         </Heading>
 
@@ -23,7 +19,7 @@ export default function OurKeyMiles() {
           columns={{ base: 1, sm: 2, md: 5 }}
           className={style.milesContent}
           gap="0px"
-          textAlign={{ base: "", sm: "", md: "left" }}
+          textAlign={{ base: "", md: "left" }}
           mt="34px"
         >
           {MileStone &&

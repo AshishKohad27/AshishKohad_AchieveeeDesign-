@@ -19,8 +19,8 @@ export default function ({ item }) {
       <Button
         mt="14px"
         mb="29px"
-        w={{ base: "120px", sm: "120px", md: "149px" }}
-        fontSize={{ base: "12px", sm: "12px", md: "14px" }}
+        w={{ base: "120px", md: "149px" }}
+        fontSize={{ base: "12px", md: "14px" }}
         _hover={{
           background: "#00B284",
         }}

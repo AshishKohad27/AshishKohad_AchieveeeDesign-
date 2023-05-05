@@ -36,16 +36,20 @@ export default function RentVehicles() {
         bg="#3D3D45"
         m="auto"
         borderRadius="20px"
-        columns={{ base: 1, sm: 1, md: 1, lg: 2 }}
+        columns={{ base: 1, lg: 2 }}
         columnGap="100px"
         rowGap="20px"
         p={{ base: "15px" }}
       >
-        <Box h={{base:"auto",sm:"auto",md:"320px"}} pl={{ base: "auto", sm: "auto", md: "65px" }}>
+        <Box
+          h={{ base: "auto", md: "320px" }}
+          pl={{ base: "auto", md: "65px" }}
+        >
           <Flex mt="35px" gap="6px">
             {RentVehicleArr &&
               RentVehicleArr.map((item, index) => (
                 <Box
+                key={index}
                   cursor="pointer"
                   h="9px"
                   w="9px"
@@ -69,6 +73,7 @@ export default function RentVehicles() {
               {RentVehicleArr &&
                 RentVehicleArr[currentID].content.map((item, index) => (
                   <Flex
+                    key={index}
                     gap="10px"
                     w="250px"
                     bg=""
