@@ -7,6 +7,7 @@ import EasyAccess from "../Sections/EasyAccess";
 import Footer from "../Components/Footer";
 import FrequentlyAsked from "../Sections/FrequentlyAsked";
 import RentTopBikes from "../Sections/RentTopBikes";
+import WellMaintain from "../Sections/WellMaintain";
 
 export default function Home() {
   return (
@@ -23,7 +24,7 @@ export default function Home() {
         {/* Rent Top Bikes */}
 
         {/* Well Maintain */}
-        {/* <WellMaintain /> */}
+        <WellMaintain />
         {/* Well Maintain */}
 
         {/* Our Key MilesStones */}

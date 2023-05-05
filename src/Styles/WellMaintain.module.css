@@ -1,83 +1,51 @@
-.carouselContainer {
-  width: 1140px;
-  margin: auto;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
+
+.wellMainLeft {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-.carousel {
-  /* background-color: red; */
-  width: 1140px;
-  height: 290px;
-  margin: auto;
-  color: #fff;
-  display: flex;
-  text-align: left;
+
+/* common */
+.display_1,
+.display_2,
+.wellMainRight > p:nth-child(1),
+.wellMainRight > h1:nth-child(2),
+.wellMainRight > p:nth-child(3) {
+  font-family: "Inter";
+  font-style: normal;
+  color: #000000;
+}
+/* common */
+
+.wellMainLeft > div:nth-child(2) {
   position: absolute;
-  top: 90px;
-  z-index: 1;
-  overflow: hidden;
+  bottom: 0px;
+  left: 0px;
 }
-.carousel > div:first-child {
-  width: 1140px;
-  height: 290px;
-  animation: animation 10s infinite 20s;
-}
-
-.carousel_1 {
-  background-color: red;
-  display: flex;
-}
-.imageDiv {
-  width: 570px;
-  background-color: rosybrown;
-}
-.contentDiv {
-  width: 570px;
-  background-color: palegreen;
-}
-.carousel_2 {
-  background-color: green;
-  display: flex;
-}
-.carousel_3 {
-  background-color: orange;
-  display: flex;
+.display_1,
+.display_2 {
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
 }
 
-@keyframes animation {
-  0% {
-    margin-left: 0px;
-  }
-  50% {
-    margin-left: -1140px;
-  }
-  100% {
-    margin-left: -2280px;
-  }
+.wellMainRight > p:nth-child(1) {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #5c2c01;
+}
+.wellMainRight > h1:nth-child(2) {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 57px;
 }
 
-@media all and (min-width: 300px) and (max-width: 1300px) {
-  .carousel {
-    width: 570px;
-  }
-  .carousel_1,
-  .carousel_2,
-  .carousel_3 {
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-  }
-  @keyframes animation {
-    0% {
-      margin-left: 0px;
-    }
-    50% {
-      margin-left: -570px;
-    }
-    100% {
-      margin-left: -1140px;
-    }
-  }
+.wellMainRight > p:nth-child(3) {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
 }

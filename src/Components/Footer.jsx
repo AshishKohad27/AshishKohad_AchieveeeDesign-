@@ -15,7 +15,8 @@ export default function Footer() {
         m="auto"
         pt="80px"
         columns={{ base: 1, sm: 2, md: 4 }}
-        gap="40px"
+        columnGap="40px"
+        rowGap="30px"
         className={style.footerContent}
       >
         <Box m="auto">

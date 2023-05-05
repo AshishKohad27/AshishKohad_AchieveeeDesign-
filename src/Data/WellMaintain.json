@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "title": "Well maintained",
+        "image": "./Images/WellMaintain/wellMaintain.png",
+        "subTitle": "Why people love Bykemania?",
+        "desc": "Our bikes maintained so well you will feel they are brand new!",
+        "display": [
+            "🔧 Regular checkups",
+            "👨🏽  by in-house mechanics"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Top bikes, everytime!",
+        "image": "./Images/WellMaintain/Bajaj_Pulsar.png",
+        "subTitle": "Why people love Bykemania?",
+        "desc": "Our bikes maintained so well you will feel they are brand new!",
+        "display": [
+            "🔧 Regular checkups",
+            "🔔  Promotion alerts"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Easy access on the app",
+        "image": "./Images/WellMaintain/Honda_Aviator.png",
+        "subTitle": "Why people love Bykemania?",
+        "desc": "Install our mobile app to get exciting offers and amazing features.",
+        "display": [
+            "👨🏽  by in-house mechanics",
+            "⚡ Instant booking"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Rent Electric Vehicles",
+        "image": "./Images/WellMaintain/Honda_Hornet.png",
+        "subTitle": "Why people love Bykemania?",
+        "desc": "World-class wealth management using science, data and technology, leveraged by our experience, and human touch.",
+        "display": [
+            "🏍️ New model alerts",
+            "👨🏽  by in-house mechanics"
+        ]
+    }
+]

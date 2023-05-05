@@ -11,7 +11,11 @@ export default function OurKeyMiles() {
       className={style.OurKeyMiles}
     >
       <Box maxW="1140px" m="auto" className={style.OurKeyHeading}>
-        <Heading as="h1" pt="62px">
+        <Heading
+          as="h1"
+          pt="62px"
+          textAlign={{ base: "center", sm: "center", md: "left" }}
+        >
           Our Key Milestone
         </Heading>
 
