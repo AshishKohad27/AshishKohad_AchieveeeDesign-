@@ -2,7 +2,8 @@
 
 /* common */
 .DisNavbar,
-.login {
+.login,
+.selectTag {
   font-family: "Inter";
   font-style: normal;
 }
@@ -13,20 +14,23 @@
   line-height: 22px;
   text-align: center;
   color: #88959f;
+
+  /* background-color: rebeccapurple; */
 }
-.selectBox{
-    position: relative;
+.selectBox {
+  position: relative;
 }
-.location{
-    width: 9px;
-    height: 12px;
-    position: absolute;
-    top: 14px;
-    left: 31px;
-    z-index: 100;
+.location {
+  width: 9px;
+  height: 12px;
+  position: absolute;
+  top: 13px;
+  left: 31px;
+  z-index: 100;
 }
-.select {
+.selectTag {
   background: #ffffff;
+  background-color: red;
   border: 1px solid #b8b8b8;
   border-radius: 5px;
   font-weight: 600;

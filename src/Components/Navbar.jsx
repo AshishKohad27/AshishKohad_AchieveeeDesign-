@@ -95,10 +95,16 @@ export default function Navbar() {
             />
           </Box>
           <Select
-            className={style.select}
+            className={style.selectTag}
+            w="123px"
+            h="36px"
+            fontSize="12px"
             display={{ base: "none", lg: "block" }}
           >
             <option value="">Bangalore</option>
+            <option value="">Mumbai</option>
+            <option value="">Pune</option>
+            <option value="">Nagpur</option>
           </Select>
 
           <Button
@@ -130,7 +136,7 @@ const DesktopNav = () => {
   const popoverContentBgColor = useColorModeValue("white", "gray.800");
 
   return (
-    <Stack direction={"row"} spacing={4} pt="10px" w="765px" h="49px" ml="80px">
+    <Stack direction={"row"} spacing={4} pt="10px" w="auto" h="49px" ml="80px">
       {NAV_ITEMS.map((navItem) => (
         <Box key={navItem.label}>
           <Popover trigger={"hover"} placement={"bottom-start"}>
@@ -139,9 +145,8 @@ const DesktopNav = () => {
                 className={style.DisNavbar}
                 p={2}
                 href={navItem.href ?? "#"}
-                fontSize={"sm"}
-                fontWeight={500}
-                color={linkColor}
+         color="#88959f"
+                
                 _hover={{
                   textDecoration: "none",
                   color: linkHoverColor,
@@ -232,7 +237,7 @@ const MobileNavItem = ({ label, children, href }) => {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
-    <Stack spacing={4} onClick={children && onToggle} >
+    <Stack spacing={4} onClick={children && onToggle}>
       <Flex
         py={2}
         as={Link}
